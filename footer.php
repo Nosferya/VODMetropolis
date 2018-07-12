@@ -22,7 +22,7 @@
 					<a href="#"><i class="fab fa-facebook"></i></a>
 					<a href="#"><i class="fab fa-twitter"></i></a>
 					<a href="#"><i class="fab fa-linkedin"></i></a>
-					
+
 
 				</div>
 
@@ -34,7 +34,8 @@
 
 				<form action="#" method="post">
 
-					<input type="text" name="email" placeholder="Email" />
+					<input type="email" name="email" placeholder="Email" />
+          <input type="text" name="sujet" placeholder="sujet" />
 					<textarea name="message" placeholder="Message"></textarea>
 					<button>Envoyer</button>
 
