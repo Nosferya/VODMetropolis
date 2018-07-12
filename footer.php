@@ -2,30 +2,27 @@
 
 			<div class="footer-left">
 
-				<h3>Company<span>logo</span></h3>
+				<h3>Logo</h3>
 
 				<p class="footer-links">
-					<a href="#">Home</a>
+					<a href="#">Accueil</a>
 					·
-					<a href="#">Blog</a>
+					<a href="#">Infos</a>
 					·
-					<a href="#">Pricing</a>
+					<a href="#">Films</a>
 					·
-					<a href="#">About</a>
-					·
-					<a href="#">Faq</a>
-					·
-					<a href="#">Contact</a>
+					<a href="#">Connexion</a>
+
 				</p>
 
-				<p class="footer-company-name">Company Name &copy; 2015</p>
+				<p class="footer-company-name">Mentions Légales</p>
 
 				<div class="footer-icons">
 
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-github"></i></a>
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+					
 
 				</div>
 
@@ -33,13 +30,13 @@
 
 			<div class="footer-right">
 
-				<p>Contact Us</p>
+				<p>Nous contacter</p>
 
 				<form action="#" method="post">
 
 					<input type="text" name="email" placeholder="Email" />
 					<textarea name="message" placeholder="Message"></textarea>
-					<button>Send</button>
+					<button>Envoyer</button>
 
 				</form>
 
