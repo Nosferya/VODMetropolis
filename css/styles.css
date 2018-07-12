@@ -1,1 +1,174 @@
+/*RESET*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,tr,td,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,article,aside,audio,canvas,datalist,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,subline,summary,time,video{margin:0;padding:0;border:0;outline:0;font-size:100%}ol,ul{list-style:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}img,article,aside,audio,canvas,datalist,details,figcaption,figure,footer,header,hgroup,mark,meter,nav,output,progress,section,subline,summary,time,video{display:block}
+/*/RESET*/
 
+html {
+    width: 100%;
+    min-height: 100%;
+    background: #fff;
+    font: 400 62.5% 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #575656;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.floatL {
+    float: left;
+}
+
+.floatR {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.inline,
+.center img,
+.right img {
+	display: inline;
+}
+
+.relative {
+    position: relative;
+}
+
+p {
+    padding: 0 0 10px;
+}
+
+a {
+    color: #575656;
+    text-decoration: none;
+}
+
+.resize {
+    max-width: 100%;
+    height: auto !important;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.centered1 {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+
+input[type="checkbox"] {
+    width: auto;
+    height: auto;
+    margin: 0 10px 0 0;
+}
+
+@media all and (max-width:780px) {
+	html {
+		font-size: 50%;
+	}
+}
+
+/*
+    ***********************************
+    *            NAV BAR              *
+    ***********************************
+
+*/
+
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: #444561;
+    overflow: hidden;
+}
+
+    /* Style the links inside the navigation bar */
+
+.topnav a {
+      display: inline-block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #4e43b7;
+    color: white;
+}
+
+/* Add an active class to highlight the current page */
+.topnav .active {
+    background-color: #4e43b7;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+.topnav.responsive a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+}
+
+/*
+    ***********************************
+    *            SLIDER               *
+    ***********************************
+*/
+
+.carousel img {
+  width: 100%;
+  height: 500px;
+}
+
+
+.carousel-indicators li {
+  border-radius: 50%;
+  height:15px;
+}
+
+@media screen and (max-width: 800px) {
+  .carousel img {
+    height: 250px;
+  }
+}
+
+.sorties {
+  height: 50px;
+}
