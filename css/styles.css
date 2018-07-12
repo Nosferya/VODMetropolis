@@ -91,7 +91,13 @@ input[type="checkbox"] {
     ***********************************
 
 */
+header {
+  position:fixed;
+  top:0;
+  width: 100%;
+  z-index: 50;
 
+}
 /* Add a background color to the top navigation */
 .topnav {
     background-color: #444561;
@@ -151,6 +157,10 @@ input[type="checkbox"] {
     *            SLIDER               *
     ***********************************
 */
+.carousel {
+  margin-top:50px;
+}
+
 
 .carousel img {
   width: 100%;
