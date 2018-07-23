@@ -18,7 +18,7 @@
 <body>
   <!-- <header> -->
   <?php include("header.php") ?>
-  <?php include("connectbdd.php") ?>
+  <?php include("connectbddlh.php") ?>
   <?php
   $genreselect = $dbh->query('SELECT * FROM Genre');
   ?>
@@ -49,7 +49,7 @@
             <option value=" <?php echo $genreS['id_genre']; ?>"> <?php echo $genreS['Genre']; ?></option>
 <?php
           }
-          
+
           ?>
           <label for="affiche"> Affiche (url) : </label><br>
           <input type="text" name="affiche" id="affiche" class="txtinput" placeholder="Url de l'affiche" required/><br>
