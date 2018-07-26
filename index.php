@@ -14,7 +14,7 @@
 
 <body>
 <?php include("header.php") ?>
-<?php include("connectbdd.php") ?>
+<?php include("connectbddlh.php") ?>
 
 <?php
 $filmtable=$dbh->query('SELECT * FROM Films ORDER BY id_films DESC LIMIT 12');

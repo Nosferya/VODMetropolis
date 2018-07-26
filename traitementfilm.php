@@ -42,7 +42,7 @@
     ?>
 
 
-<?php include("connectbdd.php") ?>
+<?php include("connectbddlh.php") ?>
 
 <?php
 
